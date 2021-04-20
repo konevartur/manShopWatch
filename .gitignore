@@ -1,6 +1,10 @@
 /node_modules
 /dist
 /.vscode
+/.firebase
+
 package-lock.json
 package.json
 gulpfile.js
+firebase.json
+.firebaserc
