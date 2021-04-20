@@ -1,0 +1,50 @@
+.collection {
+	width: 100%;
+	height: 500px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+
+	background: url(../images/img/new-collection.png) fixed (center/cover) no-repeat;
+	
+	border-bottom: 1px solid $line-color;
+	color: #fff;
+
+	&__p {
+		font-size: 36px;
+		font-family: 'Cormorant Garamond', serif;
+		text-transform: uppercase;
+	}
+
+	&__line {
+		width: 100px;
+		height: 1px;
+		margin-top: 20px;
+		background: #fff;
+	}
+
+	&__button {
+		width: 140px;
+		height: 40px;
+		margin-top: 30px;
+
+		font-size: 15px;
+		text-transform: uppercase;
+		color: #fff;
+
+		background-color: transparent;
+
+		border: 1px solid #fff;
+		outline: none;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.1);
+			transition: .3s linear;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.brends {
+	min-height: 200px;
+	padding: 20px 0;
+
+	background: $second-color;
+	text-align: center;
+	border-bottom: 1px solid $line-color;
+	color: #fff;
+
+	&__p {
+		font-size: 36px;
+		font-family: 'Cormorant Garamond', serif;
+		text-transform: uppercase;
+	}
+
+	&__line {
+		width: 100px;
+		height: 1px;
+		margin: 20px auto 0;
+		background: #fff;
+	}
+
+	&__wrap {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}

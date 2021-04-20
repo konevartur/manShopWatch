@@ -1,0 +1,51 @@
+.season {
+	min-height: 500px;
+	padding: 40px 0;
+	color: #fff;
+	border-bottom: 1px solid $line-color;
+
+	text-align: center;
+
+	&__p {
+		font-size: 36px;
+		font-family: 'Cormorant Garamond', serif;
+	}
+
+	&__line {
+		width: 100px;
+		height: 1px;
+		margin: 20px auto 0;
+		background: #fff;
+	}
+
+	&__wrap {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+
+		margin-top: 30px;
+	}
+
+	&__item {
+		padding: 10px;
+		text-align: left;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.1);
+			transition: .3s linear;
+		}
+	}
+
+	&__text {
+		margin-top: 10px;
+		font-size: 18px;
+		font-family: 'Cormorant Garamond', serif;
+	}
+
+	&__smalltext {
+		margin-top: 10px;
+		font-size: 16px;
+		font-family: 'Cormorant Garamond', serif;
+	}
+}

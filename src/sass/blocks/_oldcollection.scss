@@ -1,0 +1,61 @@
+.oldcollection {
+	width: 100%;
+	min-height: 500px;
+	padding: 20px 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+
+	background: url(../images/img/collection-2018.png) fixed (center/cover) no-repeat;
+
+	border-bottom: 1px solid $line-color;
+	color: #fff;
+
+	&__p {
+		font-size: 36px;
+		font-family: 'Cormorant Garamond', serif;
+		text-transform: uppercase;
+	}
+
+	&__line {
+		width: 100px;
+		height: 1px;
+		margin-top: 20px;
+		background: #fff;
+	}
+
+	&__text {
+		max-width: 730px;
+		margin-top: 30px;
+		padding: 0 20px;
+
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 16px;
+	}
+
+	&__button {
+		width: 200px;
+		height: 40px;
+		margin-top: 30px;
+
+		font-size: 15px;
+		text-transform: uppercase;
+		color: #fff;
+
+		background-color: transparent;
+
+		border: 1px solid #fff;
+		outline: none;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.1);
+			transition: .3s linear;
+		}
+	}
+}

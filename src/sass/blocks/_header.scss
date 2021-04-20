@@ -1,0 +1,76 @@
+.header {
+	padding: 20px 0;
+
+	font-size: 16px;
+	color: #969696;
+	border-bottom: 1px solid $line-color;
+
+	&__info {
+		width: 100%;
+		max-width: 450px;
+
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		margin: 0 auto;
+	}
+
+	&__icon-phone {
+		margin-right: 10px;
+	}
+
+	&__tel {
+		margin-right: 10px;
+	}
+
+	&__tel_a {
+		color: #969696
+	}
+
+	&__text {
+		margin-right: 10px;
+	}
+
+	&__auth {
+		width: 100%;
+		max-width: 450px;
+
+		display: flex;
+		justify-content: center;
+
+		margin: 20px auto 0;
+	}
+
+	&__exit {
+		color: #969696;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.1);
+			transition: .3s linear;
+		}
+	}
+
+	&__entrance {
+		margin-left: 20px;
+		color: #969696;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.1);
+			transition: .3s linear;
+		}
+	}
+
+	&__registration {
+		margin-left: 20px;
+		color: #969696;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.1);
+			transition: .3s linear;
+		}
+	}
+}

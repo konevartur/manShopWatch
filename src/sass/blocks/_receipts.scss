@@ -1,0 +1,55 @@
+.receipts {
+	min-height: 1000px;
+
+	padding: 40px 0;
+	color: #fff;
+	border-bottom: 1px solid $line-color;
+
+	text-align: center;
+
+	&__p {
+		font-size: 36px;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+	}
+
+	&__line {
+		width: 100px;
+		height: 1px;
+		margin: 20px auto 0;
+		background: #fff;
+	}
+
+	&__wrap {
+		margin-top: 30px;
+		
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 10px;
+		grid-row-gap: 20px;
+		justify-items: center;
+	}
+
+	&__item {
+		text-align: left;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.1);
+			transition: .3s linear;
+		}
+	}
+
+	&__text {
+		margin-top: 10px;
+		font-size: 18px;
+		font-family: 'Cormorant Garamond', serif;
+	}
+
+	&__smalltext {
+		margin-top: 10px;
+		font-size: 16px;
+		font-family: 'Cormorant Garamond', serif;
+	}
+}

@@ -1,0 +1,51 @@
+.first-screen {
+	height: 810px;
+
+	padding: 160px 0;
+
+	background: url(../images/img/rectangle.jpg) center (center/cover) no-repeat;
+
+	color: #fff;
+
+	border-bottom: 1px solid $line-color;
+
+	&__square {
+		width: 300px;
+		height: 300px;
+
+		margin: 0 auto;
+
+		border: 2px solid #fff;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	&__h2 {
+		font-size: 50px;
+		font-family: 'Saira Stencil One', cursive;
+	}
+
+	&__line {
+		width: 195px;
+		height: 2px;
+		background: #fff;
+	}
+
+	&__h4 {
+		margin-top: 15px;
+		font-family: 'Cormorant Garamond', serif;
+	}
+
+	&__text {
+		max-width: 730px;
+		margin: 80px auto 0;
+		padding: 0 20px;
+
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,26 @@
+.nav {
+	border-bottom: 1px solid $line-color;
+
+	&__wrap {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	&__item {
+		padding: 20px;
+		color: #969696;
+		font-size: 17px;
+		text-transform: uppercase;
+
+		&:hover {
+			transform: scale(1.1);
+			transition: .3s linear;
+		}
+	}
+
+	&__item_active {
+		background: #1F1F1F;
+		color: #fff;
+	}
+}
